@@ -1,0 +1,49 @@
+body{
+    background-color: aquamarine;
+}
+
+.container{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    display: grid;
+}
+
+
+.wrapper{
+    padding-top: 15px;
+    padding: 50px, 60px;
+    padding-left: 50px;
+    background-color: white;
+    
+}
+
+.rgbOutput{
+    display: inline-block;
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+    top: 25px;
+    background-color: cornflowerblue;
+    color: white;
+    margin: auto;
+}
+
+input[type="range"]{
+    
+    display: inline-block;
+    width: 80%;
+}
+

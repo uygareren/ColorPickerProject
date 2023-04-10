@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="wrapper ">
+            R <input type="range"  min="0" max="255" value="0" id="red" >
+        </div>
+        <div class="wrapper">
+             G <input type="range" min="0" max="255" value="0" id="green">
+        </div>
+        <div class="wrapper">
+            B <input type="range" min="0" max="255" value="0" id="blue">
+        </div>
+
+        <span class="rgbOutput">rgb(0,0,0)</span>
+
+    </div>
+
+
+    <script src="src.js"></script>
+</body>
+</html>
